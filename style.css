@@ -3,52 +3,26 @@ header {
   color: #353535;
   font-weight: bold;
   font-size: 60px;
-  font-family: "Bahnschrift Light";
+  font-family: "Montserrat";
   letter-spacing: 3px;
   padding: 30px;
 }
 body {
   background-color: #fafafa;
-  font-family: "Bahnschrift Light";
+  font-family: "Monserrat";
   font-size: 25px;
   font-weight: bold;
   color: #5e5d5d;
 }
 img {
   width: 250px;
-  float: left;
-  margin-right: 1000px;
-  border-radius: 10px;
+  padding-left: 5%;
 }
 .graphlogo {
   padding-top: 3%;
 }
 
-.gender {
-  float: left;
-  padding-left: 40%;
-  padding-top: 5%;
-}
-.age {
-  float: left;
-  padding-left: 40%;
-  padding-top: 5%;
-}
-.survivor {
-  float: left;
-  padding-left: 40%;
-  padding-top: 10%;
-}
-.parch {
-  float: left;
-  padding-left: 40%;
-  padding-top: 10%;
-}
-.embark {
-  float: left;
-  padding-left: 40%;
-  padding-top: 10%;
-}
+
 
 .stats {
   margin-left: 8%;
@@ -81,3 +55,10 @@ img {
   margin: auto;
 }
 
+.agegraph {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: conic-gradient(#51ee85 0deg 32.35deg, #e00f3c 32.35deg 67.45deg, #66d3fd 67.45deg 346.22deg, #fcba03 346.22deg 360deg);
+    margin: auto;
+  }
